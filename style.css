@@ -40,8 +40,15 @@ a:hover {
     padding: 15px;
     margin: 55px 75px;
     border-radius: 50px;
+    width: 50px 50px;
 }
 
+.container {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+
+}
 .list-inline {
     list-style: none;
     padding-left: 0px;
@@ -56,6 +63,9 @@ a:hover {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+  }
+  .card {
+    width :300px;
   }
 }
 @media (max-width: 720px) {
